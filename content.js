@@ -30,7 +30,8 @@ const SITE_CONFIG = {
   },
 
   /* ---- OPENING SCREEN ---- */
-  intro: { title:"Hey Mr. Badgujar... 👀", text:"I made something for you... so take a little break and come with me💌" },
+  intro: { 
+     title:"Hey Mr. Badgujar... 👀", text:"I made something for you... so take a little break and come with me💌" },
   button:"Come with me ❤️"
 },
 
