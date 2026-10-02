@@ -49,13 +49,14 @@ const SITE_CONFIG = {
   },
 
   /* ---- SECTION 1 ---- */
-  hero: {
+   hero: {
     eyebrow: "Happy Boyfriend's Day",
     greeting: "To the person who somehow became my favourite part of every day.",
     madeFor: "Made specially for:",
     subtitle: "Scroll slowly. There's a lot in here.",
     button: "Let's begin ↓"
-  },
+ }
+ };
 
  /* ---- OUR STORY (unlimited). image optional ---- */
 story: [
