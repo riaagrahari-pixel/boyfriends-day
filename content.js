@@ -33,7 +33,7 @@ const SITE_CONFIG = {
   intro: { 
      title:"Hey Mr. Badgujar... 👀", text:"I made something for you... so take a little break and come with me💌" },
      button:"Come with me ❤️"
-},
+  },
 
   /* ---- SECTION 1 ---- */
   hero: {
