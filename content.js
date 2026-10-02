@@ -90,7 +90,7 @@ const SITE_CONFIG = {
     finish: "Okay Mr. Boyfriend... let's see how you did 👀",
     questions: [
       { q:"Where did we first meet?", options:["College","Instagram","Cafe"], answer:0, right:"Obviously. 😌", wrong:"Hehe, not quite — but I love you anyway." },
-      { q:"Who said 'I love you' first?", options:["You","Me","Neither of us"], answer:0 right:"HAHA I still remember that 😂❤️.", wrong:"You really forgot?!" }
+      { q:"Who said 'I love you' first?", options:["You","Me","Neither of us"], answer:0, right:"HAHA I still remember that 😂❤️.", wrong:"You really forgot?!" }
     ],
     results: [
       { min:0, text:"Zero stress — you've got a lifetime to study me. 😘" },
