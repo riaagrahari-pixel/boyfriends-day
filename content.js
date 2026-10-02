@@ -7,7 +7,7 @@
 const SITE_CONFIG = {
   boyfriendName: "Pranav",          // <-- his name
   myName: "Ria",                  // <-- your name
-  pageTitle: "For You❤️",
+  pageTitle: "For You ❤️",
 
   /* ---- DESIGN ---- */
   theme: "romantic",   // romantic | softred | babyblue | lavender | cream | blackred | pastel | custom
@@ -19,20 +19,7 @@ const SITE_CONFIG = {
 
   /* ---- ORDER / VISIBILITY OF SECTIONS ---- */
   sections: ["hero","story","photos","reasons","meter","music","openWhen","jokes","quiz","letter","bucket","ending"],
-  navLabels: {
-  hero:"Beginning",
-  story:"Our Story",
-  photos:"Memories",
-  reasons:"Reasons",
-  meter:"Love Meter",
-  music:"Music",
-  openWhen:"Open When",
-  jokes:"Inside Jokes",
-  quiz:"Quiz",
-  letter:"Letter",
-  bucket:"Future",
-  ending:"Ending"
-},
+  navLabels: { hero:"Beginning", story:"Our Story", photos:"Memories", reasons:"Reasons", meter:"Love Meter", music:"Music", openWhen:"Open When", jokes:"Inside Jokes", quiz:"Quiz", letter:"Letter", bucket:"Future", ending:"Ending" },
   titles: {
     story:"Our Story", storySub:"A few chapters I keep re-reading",
     photos:"Our Photo Wall", photosSub:"Tap any photo",
@@ -43,86 +30,36 @@ const SITE_CONFIG = {
   },
 
   /* ---- OPENING SCREEN ---- */
-  intro: { 
-     title:"Hey Mr. Badgujar... 👀", text:"I made something for you... so take a little break and come with me💌" },
-     button:"Come with me ❤️"
-  },
+  intro: { title:"Hey Mr. Badgujar... 👀", text:"I made something for you... so take a little break and come with me💌" },
 
   /* ---- SECTION 1 ---- */
-   hero: {
+  hero: {
     eyebrow: "Happy Boyfriend's Day",
     greeting: "To the person who somehow became my favourite part of every day.",
     madeFor: "Made specially for:",
     subtitle: "Scroll slowly. There's a lot in here.",
     button: "Let's begin ↓"
- }
- };
+  },
 
- /* ---- OUR STORY (unlimited). image optional ---- */
-story: [
-  {
-    date:"[DATE]",
-    title:"The Beginning",
-    text:"Little did I know this random moment would become one of my favourite chapters.",
-    image:"images/photo1.jpg",
-    location:"[LOCATION]"
-  },
-  {
-    date:"[DATE]",
-    title:"First Date",
-    text:"Where I made you PROPOSE for the first time and You said I LOVE YOU 😂",
-    image:"images/photo2.jpg"
-  },
-  {
-    date:"Today",
-    title:"Today",
-    text:"And somehow it keeps getting better.",
-    image:"images/photo3.jpeg"
-  }
-],
+  /* ---- OUR STORY (unlimited). image optional ---- */
+  story: [
+    { date:"[DATE]", title:"The Beginning", text:"Little did I know this random moment would become one of my favourite chapters.", image:"images/photo1.jpeg", location:"[LOCATION]" },
+    { date:"[DATE]", title:"First Date", text:"Where I made you PROPOSE for the first time and You said I LOVE YOU 😂", image:"images/photo2.jpeg" },
+    { date:"Today", title:"Today", text:"And somehow it keeps getting better.", image:"images/photo3.jpeg" }
+  ],
 
-  /* ---- PHOTOS (unlimited; add, delete, reorder freely) ---- */
-photos: [
-  {
-    image:"images/photo1.jpg",
-    caption:"My favourite memory with you ❤️",
-    date:"25 September 2023",
-    location:"Pune",
-    description:"The first time we kissed… on the 3rd floor of our college. 🥹",
-    shape:"polaroid",
-    rotation:-3,
-    size:"medium",
-    frame:"tape"
-  },
-  {
-    image:"images/photo2.jpg",
-    caption:"Us being silly",
-    shape:"polaroid",
-    rotation:2
-  },
-  {
-    image:"images/photo3.jpeg",
-    caption:"",
-    shape:"rounded",
-    rotation:-1,
-    size:"large",
-    position:"center top"
-  },
-  {
-    image:"images/photo4.jpeg",
-    shape:"heart",
-    rotation:3,
-    size:"small"
-  },
-  {
-    image:"images/photo5.jpg",
-    caption:"That day",
-    date:"26/03/2024",
-    shape:"circle",
-    rotation:0,
-    size:"small"
-  }
-],
+  /* ---- PHOTOS (unlimited; add, delete, reorder freely) ----
+     shape: rectangle→"rect" | "rounded" | "circle" | "polaroid" | "heart"
+     frame: "none" | "gold" | "tape"   size: small|medium|large
+     position: CSS object-position e.g. "center top" or "30% 20%"  (crop focus)
+     Everything except image is optional. */
+  photos: [
+    { image:"images/photo1.jpeg", caption:"My favourite memory with you ❤️", date:"25 September 2023", location:"Pune", description:"The first time we kissed… on the 3rd floor of our college. 🥹\n\nThe thrill of knowing everyone was literally downstairs, that we could get caught at any moment, and yet you still made the first move and just did it. 😂❤️\n\nI still remember that feeling — the nervousness, the excitement, and that little “oh shit, did we really just do that?” moment. 😂\n\nI love that day. I think a little part of me will always go back to that 3rd floor whenever I think about how us really started. ❤️.", shape:"polaroid", rotation:-3, size:"medium", frame:"tape" },
+    { image:"images/photo2.jpeg", caption:"Us being silly", shape:"polaroid", rotation:2 },
+    { image:"images/photo3.jpeg", caption:"", shape:"rounded", rotation:-1, size:"large", position:"center top" },
+    { image:"images/photo4.jpeg", shape:"heart", rotation:3, size:"small" },
+    { image:"images/photo5.jpeg", caption:"That day", date:"26/03/2024", shape:"circle", rotation:0, size:"small" }
+  ],
 
   /* ---- REASONS (aim for 10–15) ---- */
   reasons: [
@@ -165,13 +102,13 @@ photos: [
   /* ---- LETTER: blank line = new paragraph ---- */
   letter: {
     preface: "Okay... jokes aside.",
-    text: `Dear Pranav,
+    text: `Dear *Pranav*,
 
-     You’ve been my favourite person through every version of us, and I wouldn’t want it any other way. 🥹
-     Happy Boyfriend’s Day to my favourite idiot, my home, and my forever Person. 🫶🏻
-     You make my life *softer*, **funnier**, and so much more fun. Thank you for every little thing.
+You’ve been my favourite person through every version of us, and I wouldn’t want it any other way. 🥹
+Happy Boyfriend’s Day to my favourite idiot, my home, and my forever Person. 🫶🏻
+You make my life *softer*, **funnier**, and so much more fun. Thank you for every little thing.
 
-     I love you. Always.`,
+I love you. Always.`,
     signature: "— Your Bubu ❤️"
   },
 
