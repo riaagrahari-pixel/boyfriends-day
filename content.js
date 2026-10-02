@@ -5,8 +5,8 @@
    Remove an item from "sections" to hide a section; reorder to move it.
    =========================================================== */
 const SITE_CONFIG = {
-  boyfriendName: "**Pranav**",          // <-- his name
-  myName: "**Ria**",                  // <-- your name
+  boyfriendName: "Pranav",          // <-- his name
+  myName: "Ria",                  // <-- your name
   pageTitle: "For You ❤️",
 
   /* ---- DESIGN ---- */
@@ -43,9 +43,9 @@ const SITE_CONFIG = {
 
   /* ---- OUR STORY (unlimited). image optional ---- */
   story: [
-    { date:"[DATE]", title:"The Beginning", text:"Little did I know this random moment would become one of my favourite chapters.", image:"images/photo1.jpg", location:"[LOCATION]" },
-    { date:"[DATE]", title:"First Date", text:"Where I made you PROPOSE for the first time and You said I LOVE YOU 😂", image:"images/photo2.jpg" },
-    { date:"Today", title:"Today", text:"And somehow it keeps getting better.", image:"images/photo3.jpg" }
+    { date:"[DATE]", title:"The Beginning", text:"Little did I know this random moment would become one of my favourite chapters.", image:"images/photo1.jpeg", location:"[LOCATION]" },
+    { date:"[DATE]", title:"First Date", text:"Where I made you PROPOSE for the first time and You said I LOVE YOU 😂", image:"images/photo2.jpeg" },
+    { date:"Today", title:"Today", text:"And somehow it keeps getting better.", image:"images/photo3.jpeg" }
   ],
 
   /* ---- PHOTOS (unlimited; add, delete, reorder freely) ----
@@ -54,11 +54,11 @@ const SITE_CONFIG = {
      position: CSS object-position e.g. "center top" or "30% 20%"  (crop focus)
      Everything except image is optional. */
   photos: [
-    { image:"images/photo1.jpg", caption:"My favourite memory with you ❤️", date:"25 September 2023", location:"Pune", description:"The first time we kissed… on the 3rd floor of our college. 🥹\n\nThe thrill of knowing everyone was literally downstairs, that we could get caught at any moment, and yet you still made the first move and just did it. 😂❤️\n\nI still remember that feeling — the nervousness, the excitement, and that little “oh shit, did we really just do that?” moment. 😂\n\nI love that day. I think a little part of me will always go back to that 3rd floor whenever I think about how us really started. ❤️.", shape:"polaroid", rotation:-3, size:"medium", frame:"tape" },
-    { image:"images/photo2.jpg", caption:"Us being silly", shape:"polaroid", rotation:2 },
-    { image:"images/photo3.jpg", caption:"", shape:"rounded", rotation:-1, size:"large", position:"center top" },
-    { image:"images/photo4.jpg", shape:"heart", rotation:3, size:"small" },
-    { image:"images/photo5.jpg", caption:"That day", date:"26/03/2024", shape:"circle", rotation:0, size:"small" }
+    { image:"images/photo1.jpeg", caption:"My favourite memory with you ❤️", date:"25 September 2023", location:"Pune", description:"The first time we kissed… on the 3rd floor of our college. 🥹\n\nThe thrill of knowing everyone was literally downstairs, that we could get caught at any moment, and yet you still made the first move and just did it. 😂❤️\n\nI still remember that feeling — the nervousness, the excitement, and that little “oh shit, did we really just do that?” moment. 😂\n\nI love that day. I think a little part of me will always go back to that 3rd floor whenever I think about how us really started. ❤️.", shape:"polaroid", rotation:-3, size:"medium", frame:"tape" },
+    { image:"images/photo2.jpeg", caption:"Us being silly", shape:"polaroid", rotation:2 },
+    { image:"images/photo3.jpeg", caption:"", shape:"rounded", rotation:-1, size:"large", position:"center top" },
+    { image:"images/photo4.jpeg", shape:"heart", rotation:3, size:"small" },
+    { image:"images/photo5.jpeg", caption:"That day", date:"26/03/2024", shape:"circle", rotation:0, size:"small" }
   ],
 
   /* ---- REASONS (aim for 10–15) ---- */
@@ -70,7 +70,7 @@ const SITE_CONFIG = {
   meter: { button:"Measure my love ❤️", error:"ERROR...", overflow:"Love exceeds measurable limits." },
 
   /* ---- MUSIC (drop the mp3 in /music) ---- */
-  music: { title:"I think they call this love", artist:"Mathew Ifield", audio:"music/song.mp3", cover:"images/cover.jpg" },
+  music: { title:"I think they call this love", artist:"Mathew Ifield", audio:"music/song.mp3", cover:"images/cover.jpeg" },
 
   /* ---- OPEN WHEN (unlimited) ---- */
   openWhen: [
@@ -81,7 +81,7 @@ const SITE_CONFIG = {
 
   /* ---- INSIDE JOKES (unlimited). label/title shown first; reveal text and image shown on tap ---- */
   insideJokes: [
-    { label:"Funny memory", title:"You know EXACTLY why this photo exists.", image:"images/photo4.jpg", reveal:"Never again. (Again.)" },
+    { label:"Funny memory", title:"You know EXACTLY why this photo exists.", image:"images/photo4.jpeg", reveal:"Never again. (Again.)" },
     { label:"Nickname", title:"The nickname we don't talk about", reveal:"*Hubby* and *Wifey* 🙈" }
   ],
 
@@ -121,8 +121,8 @@ I love you. Always.`,
     signoff: "Love,\nRia",
     button: "One last thing..."
   },
-  final: { image:"images/final.jpg", shape:"heart", message:"Thank you for being my person." },
+  final: { image:"images/final.jpeg", shape:"heart", message:"Thank you for being my person." },
 
   /* ---- SECRET: tap the tiny ♡ under the first screen ---- */
-  easter: { taps:5, title:"Okay fine... you found the secret message.", message:"I love you more than you know. 🤫", image:"images/secret.jpg" }
+  easter: { taps:5, title:"Okay fine... you found the secret message.", message:"I love you more than you know. 🤫", image:"images/secret.jpeg" }
 };
