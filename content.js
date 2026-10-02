@@ -19,7 +19,20 @@ const SITE_CONFIG = {
 
   /* ---- ORDER / VISIBILITY OF SECTIONS ---- */
   sections: ["hero","story","photos","reasons","meter","music","openWhen","jokes","quiz","letter","bucket","ending"],
-  navLabels: { hero:"Beginning", story:"Our Story", photos:"Memories", reasons:"Reasons", meter:"Love Meter", music:"Music", openWhen:"Open When", jokes:"Inside Jokes", quiz:"Quiz", letter:"Letter", bucket:"Future", ending:"Ending" },
+  navLabels: {
+  hero:"Beginning",
+  story:"Our Story",
+  photos:"Memories",
+  reasons:"Reasons",
+  meter:"Love Meter",
+  music:"Music",
+  openWhen:"Open When",
+  jokes:"Inside Jokes",
+  quiz:"Quiz",
+  letter:"Letter",
+  bucket:"Future",
+  ending:"Ending"
+},
   titles: {
     story:"Our Story", storySub:"A few chapters I keep re-reading",
     photos:"Our Photo Wall", photosSub:"Tap any photo",
