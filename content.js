@@ -7,7 +7,7 @@
 const SITE_CONFIG = {
   boyfriendName: "Pranav",          // <-- his name
   myName: "Ria",                  // <-- your name
-  pageTitle: "For You ❤️",
+  pageTitle: "For You❤️",
 
   /* ---- DESIGN ---- */
   theme: "romantic",   // romantic | softred | babyblue | lavender | cream | blackred | pastel | custom
@@ -164,13 +164,13 @@ photos: [
   /* ---- LETTER: blank line = new paragraph ---- */
   letter: {
     preface: "Okay... jokes aside.",
-    text: `Dear *Pranav*,
+    text: `Dear Pranav,
 
-You’ve been my favourite person through every version of us, and I wouldn’t want it any other way. 🥹
-Happy Boyfriend’s Day to my favourite idiot, my home, and my forever Person. 🫶🏻
-You make my life *softer*, **funnier**, and so much more fun. Thank you for every little thing.
+     You’ve been my favourite person through every version of us, and I wouldn’t want it any other way. 🥹
+     Happy Boyfriend’s Day to my favourite idiot, my home, and my forever Person. 🫶🏻
+     You make my life *softer*, **funnier**, and so much more fun. Thank you for every little thing.
 
-I love you. Always.`,
+     I love you. Always.`,
     signature: "— Your Bubu ❤️"
   },
 
