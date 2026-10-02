@@ -30,7 +30,7 @@ const SITE_CONFIG = {
   },
 
   /* ---- OPENING SCREEN ---- */
-  intro: { title:"Hey Mr. Badgujar... 👀", text:"Someone made a little something for you.", button:"Open Your Surprise 💌" },
+  intro: { title:"Hey Mr. Badgujar... 👀", text:"I made something for you... so take a little break and come with me 💌" },
 
   /* ---- SECTION 1 ---- */
   hero: {
@@ -46,7 +46,7 @@ const SITE_CONFIG = {
     { date:"[DATE]", title:"The Beginning", text:"Little did I know this random moment would become one of my favourite chapters.", image:"images/photo1.jpeg", location:"[LOCATION]" },
     { date:"[DATE]", title:"The Coffee Date", text:"Obviously, I had to tell you to take me on a proper date… because you’re literally the guy who said “I love you” the first time you proposed.😂😭
       So clearly, someone had to slow things down and take it step by step… and apparently, that someone had to be me.🤭❤️", image:"images/photo2.jpeg" },
-    { date:"Today", title:"Today", text:"And somehow it keeps getting better.", image:"images/photo3.jpeg" }
+    { date:"Today", title:"Today", text:"And somehow it keeps getting better.", image:"images/photo3.jpg" }
   ],
 
   /* ---- PHOTOS (unlimited; add, delete, reorder freely) ----
@@ -57,7 +57,7 @@ const SITE_CONFIG = {
   photos: [
     { image:"images/photo1.jpeg", caption:"My favourite memory with you ❤️", date:"25 September 2023", location:"College 3rd Floor", description:"The first time we kissed… on the 3rd floor of our college. 🥹\n\nThe thrill of knowing everyone was literally downstairs, that we could get caught at any moment, and yet you still made the first move and just did it. 😂❤️\n\nI still remember that feeling — the nervousness, the excitement, and that little “oh shit, did we really just do that?” moment. 😂\n\nI love that day. I think a little part of me will always go back to that 3rd floor whenever I think about how us really started. ❤️.", shape:"polaroid", rotation:-3, size:"medium", frame:"tape" },
     { image:"images/photo2.jpeg", caption:"Us being silly", shape:"polaroid", rotation:2 },
-    { image:"images/photo3.jpeg", caption:"", shape:"rounded", rotation:-1, size:"large", position:"center top" },
+    { image:"images/photo3.jpg", caption:"", shape:"rounded", rotation:-1, size:"large", position:"center top" },
     { image:"images/photo4.jpeg", shape:"heart", rotation:3, size:"small" },
     { image:"images/photo5.jpeg", caption:"The First Coffee Date", date:"26/03/2024", shape:"circle", rotation:0, size:"small" }
   ],
