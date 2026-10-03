@@ -44,9 +44,7 @@ const SITE_CONFIG = {
   /* ---- OUR STORY (unlimited). image optional ---- */
   story: [
     { date:"[DATE]", title:"The Beginning", text:"Little did I know this random moment would become one of my favourite chapters.", image:"images/photo1.jpeg", location:"[LOCATION]" },
-    { date:"[DATE]", title:"The Coffee Date", text:"Obviously, I had to tell you to take me on a proper date… because you’re literally the guy who said “I love you” the first time you proposed.😂😭
-      So clearly, someone had to slow things down and take it step by step… and apparently, that someone had to be me.🤭❤️", image:"images/photo2.jpeg" },
-    { date:"Today", title:"Today", text:"And somehow it keeps getting better.", image:"images/photo3.jpg" }
+    { date:"[DATE]", title:"The Coffee Date", text:"Obviously, I had to tell you to take me on a proper date… because you’re literally the guy who said “I love you” the first time you proposed.😂😭 So clearly, someone had to slow things down and take it step by step… and apparently, that someone had to be me.🤭❤️`, image:"images/photo2.jpeg" },
   ],
 
   /* ---- PHOTOS (unlimited; add, delete, reorder freely) ----
